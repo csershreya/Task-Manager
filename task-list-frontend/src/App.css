@@ -1,0 +1,46 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* App Container */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form .form-control,
+form .form-select {
+  font-size: 1rem;
+}
+
+form button {
+  font-size: 1rem;
+}
+
+/* Table Styles */
+.table {
+  margin-top: 20px;
+}
+
+.table td input,
+.table td select {
+  width: 100%;
+  font-size: 0.9rem;
+}
